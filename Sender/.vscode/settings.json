@@ -1,0 +1,32 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format",
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "stdio.h": "c",
+    "gpio.h": "c",
+    "freertos.h": "c",
+    "bsp.h": "c",
+    "stdbool.h": "c",
+    "task.h": "c",
+    "adc.h": "c",
+    "esp_log.h": "c",
+    "timers.h": "c",
+    "freertosconfig.h": "c",
+    "semphr.h": "c"
+  },
+  "idf.portWin": "COM9",
+  "idf.adapterTargetName": "esp32",
+  "idf.flashType": "UART",
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ]
+}
