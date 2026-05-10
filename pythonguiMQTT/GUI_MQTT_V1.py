@@ -9,10 +9,10 @@ import webbrowser
 class App:
     def __init__(self, root):
         # Configuración de InfluxDB
-        self.token = TOKEN
-        self.org = "PDS_IA"
+        self.token = "TOKEN"
+        self.org = "ORG"
         self.bucket = "MQTT_IA"
-        self.url = "http://localhost:8086"
+        self.url = "URL"
         self.client_influx = InfluxDBClient(url=self.url, token=self.token, org=self.org)
         self.write_api = self.client_influx.write_api(write_options=SYNCHRONOUS)
 
